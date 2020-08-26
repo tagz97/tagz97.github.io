@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+
+    <main>
+        <!-- https://youtu.be/ZeDP-rzOnAA?t=915 -->
+        <section class="presentation">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1>Contact me</h1>
+                    <h2>There are Two ways to contact me</h2>
+                    <p>
+                        <a href="https://www.linkedin.com/in/declan-taggart/" target="_blank" style="color: black;">LinkedIn</a>
+                    </p>
+                    <p>
+                        <a href="mailto:taggartdeclan@gmail.com?subject=I%20would%20like%20to%20talk%20to%20you!&body=Hi%20Declan%2C%0A%0AI%20would%20like%20to%20talk%20to%20you%20about%20the%20following%3A%0A%0A%0A" style="color: black;">Email</a>
+                    </p>
+                    <p>I look forward to hearing from you!</p>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="./img/notepad.svg" alt="checkit">
+            </div>
+        </section>
+    </main>
+
+    <!--Navigation bar-->
+    <div id="nav-footer"></div>
+</body>
+
+</html>
+
+<script>
+    $(function() {
+        $("#nav-placeholder").load("header.html");
+        $("#nav-footer").load("footer.html");
+    });
+</script>
